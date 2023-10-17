@@ -1,0 +1,17 @@
+.App{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#00a884+0,00a884+13,00a884+13,dddedd+13,dddedd+14 */
+    background: rgb(0,168,132); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgb(0,168,132) 0%, rgb(0,168,132) 13%, rgb(0,168,132) 13%, rgb(221,222,221) 13%, rgb(221,222,221) 14%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgb(0,168,132) 0%,rgb(0,168,132) 13%,rgb(0,168,132) 13%,rgb(221,222,221) 13%,rgb(221,222,221) 14%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgb(0,168,132) 0%,rgb(0,168,132) 13%,rgb(0,168,132) 13%,rgb(221,222,221) 13%,rgb(221,222,221) 14%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00a884', endColorstr='#dddedd',GradientType=0 ); /* IE6-9 */
+}
+.app_body{
+    display: flex;
+    background-color: #F0F2F5;
+    height: 96vh;
+    width: 83vw;
+}

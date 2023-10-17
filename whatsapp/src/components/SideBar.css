@@ -1,0 +1,60 @@
+.sidebar{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    flex:0.30;
+}
+.sidebar_top{
+    padding-top: 10px;
+    padding-left: 16px;
+    padding-bottom: 10px;
+    padding-right: 16px;
+    display: flex;
+    align-items: center;
+    width:100%;
+    justify-content: space-between;
+    border-right: 1px solid lightgray;
+}
+#top_avatar{
+    flex-grow: 1;
+}
+#top_icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #54656F;
+}
+.sidebar_search{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    height: 49px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #e9edef;
+}
+.sidebar_searchContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #F0F2F5;
+    color: #54656F;
+    transition: all 0.2s ease;
+}
+.sidebar_searchContainer input{
+    border: none;
+    outline:none;
+    width: 100%;
+    margin-left: 10px;
+    background-color: #F0F2F5;
+    height: 30px;
+    font-size: 14px;
+}
+.sidebar_personal_chats{
+    background-color: #FFFFFF;
+    height: 100%;
+    overflow: scroll;
+}
